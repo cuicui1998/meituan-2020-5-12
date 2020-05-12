@@ -3,7 +3,8 @@
     <el-header class="el-header" height>
       <mt-header />
     </el-header>
-    <el-main class="el-main">Main</el-main>
+    <el-main class="el-main">
+    </el-main>
     <el-footer class="el-footer" height>
       <mt-footer />
     </el-footer>
