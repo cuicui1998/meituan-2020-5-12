@@ -145,22 +145,22 @@ export default {
       left: 320px;
       font-size: 12px;
       color: #999;
-      background-color: #fff;
       box-sizing: border-box;
       box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+      background-color: #fff;
       .search-hot {
         padding: 10px 0 45px 10px;
         font-weight: bold;
         border-top: none;
         border: 1px solid #e5e5e5;
-        border-bottom-left-radius: 4px;
-        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px; 
       }
       .related-words {
         border-top: none;
         border: 1px solid #e5e5e5;
-        border-bottom-left-radius: 4px;
-        border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
         dd {
           padding: 5px 0;
           color: rgba(51, 51, 51);
