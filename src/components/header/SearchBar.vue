@@ -77,8 +77,8 @@ export default {
   width: 100%;
   height: 122px;
   background-color: #fff;
-  &::before{
-    content:"";
+  &::before {
+    content: "";
     display: block;
     width: 100%;
     height: 28px;
@@ -141,23 +141,26 @@ export default {
     .search-suggest {
       position: absolute;
       width: 470px;
-      //   background-color: #fff;
-      top: 40px;
+      top: 39px;
       left: 320px;
-      border-bottom-left-radius: 4px;
-      border-bottom-right-radius: 4px;
       font-size: 12px;
       color: #999;
       background-color: #fff;
       box-sizing: border-box;
-      box-shadow: 0 px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
       .search-hot {
         padding: 10px 0 45px 10px;
         font-weight: bold;
-        border: 1px solid #e5e5e5;
         border-top: none;
+        border: 1px solid #e5e5e5;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
       }
       .related-words {
+        border-top: none;
+        border: 1px solid #e5e5e5;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
         dd {
           padding: 5px 0;
           color: rgba(51, 51, 51);
